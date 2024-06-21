@@ -21,6 +21,8 @@ int main(){
     int brr[5]={4,5,1,2,3};
     reverse(arr,6);
     reverse(arr,5);
-    printArray(arr,6);
-    printArray(arr,5);
+      printArray(arr,6);
+      printArray(arr,5);
 }
+//time complexity = o(n)
+//space complexity= o(1)
