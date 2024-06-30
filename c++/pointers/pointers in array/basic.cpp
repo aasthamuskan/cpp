@@ -32,5 +32,11 @@ int name (){
     cout<< &p[0] <<endl;
     cout<< &p <<endl;
     cout<< p <<endl;
+    int arr[10];
+    int *ptr=&arr[0];
+    cout<<ptr<<endl;
+    ptr+=1;
+    cout<<ptr<<endl;
+
     return 0;
 }
