@@ -10,8 +10,7 @@ int main(){
         while(j<=n){
             cout<<i<<" ";
             j=j+1;
-
-        }
+            }
         cout<<endl;
         i+=1;
 

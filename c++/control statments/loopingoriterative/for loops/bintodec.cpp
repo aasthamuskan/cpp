@@ -10,7 +10,6 @@ int main(){
         int digit =n&1;
         if(digit ==1){
             ans+=pow(2,i);
-
         }
         n=n/10;
         i++;

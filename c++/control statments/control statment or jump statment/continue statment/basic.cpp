@@ -7,7 +7,7 @@ int main(){
         cout<<endl<<i;
         if(i==30)
         continue;
-        i++;
+    i++;
     }
     return 0;
 }

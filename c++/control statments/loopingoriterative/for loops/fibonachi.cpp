@@ -8,8 +8,8 @@ int main(){
 
     for(i=1;i<=n;i++){
         int nextno=i+j;
-        cout<<"next no"<<nextno;
-        i=j;
-        j=nextno;
+         cout<<"next no"<<nextno;
+         i=j;
+         j=nextno;
    }
 }
