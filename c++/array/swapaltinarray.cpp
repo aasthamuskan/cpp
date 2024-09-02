@@ -21,4 +21,6 @@ int main(){
     cout<<endl;
     swapalt(odd,7);
     printary(odd,7);
+
+    
 }
