@@ -3,22 +3,23 @@ using namespace std;
 int main(){
     int num =5;
     int a=num;
-    cout<<"a before"<<num<<endl;
+    cout<<"a before"<<num <<endl;
     a++;
-    cout<<"a after"<<a<<endl;
+    cout<<"a after"<<a <<endl;
     int *p =&num;
-    cout<<"p before"<<num<<endl;
+    cout<<"p before"<<num <<endl;
     *p++;
-    cout<<"p after"<<*p<<endl;
+    cout<<"p after"<<*p <<endl;
     int *q=p;
-    cout<<"q before"<<*q<<endl;
+    cout<<"q before"<<*q <<endl;
     q++;
-    cout<<"q after"<<*q<<endl;
+    cout<<"q after"<<*q <<endl;
     int i=3;
     int *t=&i;
-    cout<<"t before"<<*t<<endl;
+    cout<<"t before"<<*t <<endl;
     *t=*t+1;
-    cout<<"t after"<<*t<<endl;
+    cout<<"t after"<<*t <<endl;
+    
     return 0;
 
 }
