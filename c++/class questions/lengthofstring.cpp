@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include<iostream>
+#include<string>
+using namespace std;
 
 int main() {
     char str[100];
@@ -14,8 +16,8 @@ int main() {
         i++;
     }
 
-    printf("Length of the string: %d\n", length);
-    printf("Number of vowels: %d\n", vowels);
+    cout<<"Length of the string: "<<length<<endl;
+    cout<<"Number of vowels: "<<vowels;
 
     return 0;
 }
