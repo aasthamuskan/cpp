@@ -8,6 +8,12 @@ int main(){
     if(pass==12){
         cout<<"password  is valid";
     }else{
-        cout<<"pasword is invalud";
+        cout<<"pasword is invalid"<<endl;
     }
+    string ss="helllo";
+    cout<<ss.insert(2,"class")<<endl;
+    cout<<ss.insert(2,3,"*")<<endl;
+    cout<<ss.replace(1,2,"world",2,3);
+
+
 }
