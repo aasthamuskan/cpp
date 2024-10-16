@@ -16,19 +16,37 @@ class human{
         this ->weight =w;
 
     }
-};
-class male: private huamn{
-    public:
-    string color;
-
-    void sleep(){
-        cout<<"male is sleping"<<endl;
-
-    }
-    int getheight(){
-        return this-> height;
     
-    }
+        int getHeight() {
+            return this->height;
+        }
+
+        void setHeight(int h) {
+            this->height = h;
+        }
+};
+class male: private human {
+    public:
+        string color;
+
+        void sleep() {
+            cout << "Male is sleeping" << endl;
+        }
+
+        // Access height using a public method
+        int getHeightFromMale() {
+            return getHeight();
+        }
+
+        // Access weight using a public method
+        int getWeightFromMale() {
+            return weight;
+        }
+
+        // Access age using a public method
+        int getAgeFromMale() {
+            return getAge();
+        }
 };
 int main(){
     male m1;
