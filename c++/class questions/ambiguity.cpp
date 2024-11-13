@@ -20,5 +20,5 @@ class score:public academics,public sports{
     int a;
 };
 int main(){
-
+    
 }
