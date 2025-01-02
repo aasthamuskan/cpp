@@ -6,7 +6,7 @@ int main() {
     char str[100];
     int i = 0, length = 0, vowels = 0;
 
-    printf("Enter a string: ");
+    cout<<"Enter a string: ";
     while ((str[i] = getchar()) != '\n') {
         length++;
         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u' ||

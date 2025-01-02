@@ -14,3 +14,25 @@ int main(){
     cout<<"the sum of elements are: "<<sum;
     return 0;
 }
+
+//parametrise program
+
+#include<iostream>
+using namespace std;
+class account {
+    int acno;
+    int balance ;
+    public:
+    account(){
+        balance=500;
+        acno=1000;
+    }
+    account(int ac,int bal){
+        acno=ac;
+        balance=bal;
+    }
+
+    void display(){
+
+    }
+};
