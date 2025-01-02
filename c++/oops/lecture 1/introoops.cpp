@@ -16,7 +16,7 @@ class hero{
     }
     //parametrised constructor
     hero(int health){
-        this->health = health;
+        this->health = health;//this is a pointer who point on current onject
     }
     hero(int health,char level){
         this->health = health;

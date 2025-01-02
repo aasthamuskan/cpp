@@ -33,6 +33,14 @@ class account {
     }
 
     void display(){
-
+        cout<<"\nthe details are:"\n";
+        cout<<"account number: "<<acno<<"\n";
+        cout<<"balance: "<<balance<<"\n";
     }
 };
+int main(){
+    int amnt;
+    cout<<"enter the amount to be deposited: ";
+    cin>>amnt;
+    
+}
