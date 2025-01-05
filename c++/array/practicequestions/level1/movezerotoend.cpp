@@ -16,7 +16,7 @@ public:
     
 };
 int main(){
-    Solution s;
+    Solution  s;
     int n;
     cin>>n;
     vector<int> nums(n);
