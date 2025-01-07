@@ -14,7 +14,7 @@ int main(){
     cin>>n;
     vector<int> a(n);
     for(int i=0; i<n; i++){
-        cin>>a[i];
+         cin>>a[i];
     }
     Solution obj;
     cout<<obj.missingNumber(a)<<endl;
