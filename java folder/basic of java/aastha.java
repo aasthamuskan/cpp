@@ -5,7 +5,7 @@ public class aastha{
         System.out.println("radhe radhe");
         String name = "Aastha";
         String neighour="Upasana";
-        int age= 20;
+        int age=   20;
         
         System.out.println("My name is "+name);
         //java types
