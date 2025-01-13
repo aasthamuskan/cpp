@@ -5,7 +5,7 @@ public class aastha{
         System.out.println("radhe radhe");
         String name = "Aastha";
         String neighour="Upasana";
-        int age=   20;
+        int age= 20;
         
         System.out.println("My name is "+name);
         //java types
@@ -23,9 +23,9 @@ public class aastha{
 
         int rollno=64;
         char letter='r';
-        float marks=98.67f;
+        float marks= 98.67f;
         double largeDecimal=45678.6789;
-        long bigNumber=6789876545678L;
+        long bigNumber= 6789876545678L;
         boolean check=true;
         //non primitive types
 
