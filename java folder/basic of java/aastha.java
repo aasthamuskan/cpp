@@ -25,7 +25,7 @@ public class aastha{
         char letter='r';
         float marks= 98.67f;
         double largeDecimal=45678.6789;
-        long bigNumber= 6789876545678L;
+        long bigNumber=  6789876545678L;
         boolean check=true;
         //non primitive types
 
