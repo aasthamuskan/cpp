@@ -4,22 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REGISTRATION FORM</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <style type="text/css">
-        form{
-            
+        body{
+            background-image: url(https://tse4.mm.bing.net/th?id=OIP._xpBaEXrUjn-wNol-PXj0gHaE0&pid=Api&P=0&h=180);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        fieldset{
+            background-image: url(https://tse1.mm.bing.net/th?id=OIP.7NNFr9D-XLIonrkmlKTXBAHaEK&pid=Api&P=0&h=180);
             width: 50%;
             margin-left: 25%;
             margin-top: 5%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
 
         }
         fieldset{
-            background-color: ;
+            background-color: rgb(225, 222, 222);
             padding: 20px;
+    
+
         }
+        h1{
+            color: bisque;
+        }
+        input{
+            border-style: dashed;
+            
+        }
+        form input:hover{
+            background-color: #e5b1b1;
+        }
+        .nav{
+            color: azure;
+            font-size: large;
+            align-items: center;
+            display: flex;
+            background-image: url(https://up.yimg.com/ib/th?id=OIP.kb55Y5CQ5Ex2kWqCX_-Q9gHaEK&pid=Api&rs=1&c=1&qlt=95&w=204&h=114);
+            height: 5vh;
+        }
+        .nav p{
+            margin: 20px;
+        }
+    
     </style>
 </head>
 <body>
-    <h1 text-align="center">APPLICATION FORM</h1>
+    <div class="nav">
+    <p><i class="fa-regular fa-house"></i> <i class="fa-regular fa-file"></i> 
+        <p>home</p>
+        <p>contact us</p>
+        <p>phone no</p>
+    </div>
+    <center>
+    <h1>APPLICATION FORM</h1>
+    </center>
     <form>
         <fieldset>
     <legend>application form</legend>
@@ -30,14 +72,18 @@
     5.Date <input type="date" name=""><br><br>
     6.Dob <input type="date" name=""><br><br>
     7.gender<br>
+   
     <input type="radio" name="aa"> MALE
     <input type="radio" name="aa"> Female
     <input type ="radio" name="aa"> Others<br><br>
+
     8.hobbies <br>
+
     <input type="checkbox" name="aa"> Reading<br>
     <input type="checkbox" name="aa"> Singing<br>
     <input type="checkbox" name="aa"> Dancing<br>
     <input type="checkbox" name="aa"> Playing<br><br>
+
     9.Country <select name="country">
         <option>India</option>
         <option>USA</option>
