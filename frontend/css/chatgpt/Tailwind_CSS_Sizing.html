@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- weidth -->
+    <div class="w-1/2 bg-blue-500 text-white p-4">
+        This div takes half the width of the parent.
+      </div>
+      <div class="w-64 bg-green-500 text-white p-4">
+        This div has a fixed width of 256px (64 * 4px).
+      </div>
+      <div class="w-full bg-red-500 text-white p-4">
+        This div takes the full width of the parent.
+      </div>
+      <!-- height -->
+      <div class="h-32 w-32 bg-purple-500 text-white flex items-center justify-center">
+        128px Height
+      </div>
+      <div class="h-screen bg-gray-800 text-white p-4">
+        This div takes the full height of the screen.
+      </div>
+      
+      <!-- 3. Minimum and Maximum Width (min-w-*, max-w-*) -->
+      <div class="min-w-64 bg-yellow-500 text-white p-4">
+        This div has a minimum width of 256px.
+      </div>
+      <div class="max-w-md bg-teal-500 text-white p-4">
+        This div has a maximum width of 28rem (448px).
+      </div>
+      
+      <!-- 4. Minimum and Maximum Height (min-h-*, max-h-*) -->
+      <div class="min-h-40 bg-orange-500 text-white p-4">
+        This div has a minimum height of 160px.
+      </div>
+      <div class="max-h-96  overflow-auto bg-pink-500 text-white p-4">
+        This div has a maximum height of 384px with scrolling.
+      </div>
+      
+      <!-- 5. Auto and Full Sizing -->
+      <div class="w-auto h-auto bg-indigo-500 text-white p-4">
+        Width & height auto adjusts to content.
+      </div>
+      <div class="w-full h-full bg-lime-500 text-white p-4">
+        Full width and height.
+      </div>
+      
+      <!-- 6. Aspect Ratio (aspect-*) -->
+
+      <div class="aspect-w-16 aspect-h-9">
+        <img src="https://via.placeholder.com/800x450" class="w-full h-full object-cover" />
+      </div>
+      
+  </body>
+</html>

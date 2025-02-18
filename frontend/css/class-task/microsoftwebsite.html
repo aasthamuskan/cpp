@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <nav class="bg-white shadow-md p-4">
+<div class="flex container mx-auto justify-between items-start">
+    <!-- logo-->
+    <a href="#" class="flex item-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk1Q2lh7aweiNuE3LObL2pp_kWhtffSJckKw&s"   alt="microsoft logo " class="h-10 w-auto">
+</a>
+<!-- navigations link -->
+  <ul class="hidden md:flex space-x-6 text-gray-700 font-medium justify-items-start">
+    
+    <li class="text-white font-mullish py-7 hover:text-blue-400 cursor-pointer transition-all duration-200 relative group">
+        <a href="#">windows</a>
+        <div class="absolute bottom-0 w-full h-1 bg-black-300 hidden group-hover:block transition-all duration-200 "></div>
+       </li>
+    
+
+  </ul>
+  <!-- search and sign in -->
+  <div class="hidden md:flex items-center space-x-4">
+    <button class="text-gray-700 hower:text-black-600">search</button>
+    <button class="text-gray-700 hower:text-black-600">sign in</button>
+
+
+  </div>
+  <button class="md:hidden text-gray-700 text-2xl focus:outline-none">☰</button>
+</div>       
+</nav>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="container mx-auto px-4">
+        <h1 class="text-2xl font-bold">Welcome to Tailwind CSS</h1>
+        <p class="text-gray-700">This is a centered container.</p>
+    </div>
+    <div class="container mx-auto px-6 py-10 bg-blue-100 border border-gray-500 rounded-lg">
+        <h2 class="text-xl font-semibold">Tailwind Container Example</h2>
+        <p class="text-gray-600">This container has a background, border, and padding.</p>
+    </div>
+    <!-- Responsive container -->
+    <div class="container mx-auto sm:bg-red-200 md:bg-green-200 lg:bg-blue-200 xl:bg-purple-200 p-6">
+        <h3 class="text-lg font-medium">Responsive Container</h3>
+        <p>This container changes color at different breakpoints.</p>
+    </div>
+    <!-- container using flex -->
+    <div class="container mx-auto flex justify-between items-center p-6 bg-gray-100 rounded-lg shadow-lg">
+        <div class="text-xl font-semibold">Left Content</div>
+        <div class="text-xl font-semibold">Right Content</div>
+    </div>
+  </body>
+</html>
