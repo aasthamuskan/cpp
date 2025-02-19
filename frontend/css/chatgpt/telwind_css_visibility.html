@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <img src="image.png">
+    <div class="block bg-blue-500 text-white p-4">I am a block element</div>
+<span class="inline bg-green-500 text-white p-2">I am inline</span>
+<div class="inline-block bg-red-500 text-white p-2">I am inline-block</div>
+
+<!-- Common Visibility Classes
+Class	Description
+visible	Makes an element visible
+invisible	Hides an element, but it still takes up space -->
+
+<p class="visible bg-gray-200 p-2">I am visible</p>
+<p class="invisible bg-gray-300 p-2">I am invisible but still there</p>
+
+<img src="Screenshot 2025-02-18 132416.png">
+<div class="hidden md:block lg:flex bg-purple-500 text-white p-4">
+    I am hidden on small screens, block on medium, and flex on large screens.
+</div>
+  </body>
+</html>
