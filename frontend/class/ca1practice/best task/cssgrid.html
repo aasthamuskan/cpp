@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>box Model</title>
+	<link rel="stylesheet"  href="index.css">
+	<style type="text/css">
+		.sf{
+			border: 4px solid black;
+			padding: 20px;
+			margin: 3px;
+			font-size: 30px;
+			display: grid;
+			grid-template-areas: 
+			'main head head head head head'
+			'main menu menu menu right right'
+			'main footer footer footer footer footer';
+
+		}
+		.grid-items{
+			background-color: whitesmoke;
+			border: 2px solid black;
+			padding: 20px;
+			font-size: 30px;
+		}
+		img{
+			width: 100%;
+			height: 100%;
+		}
+		#grid-item-1{
+			grid-area: head;
+			height: 20vh;
+		}
+		#grid-item-2{
+			grid-area: main;
+		}
+		#grid-item-3{
+			grid-area: menu;
+		}
+		#grid-item-4{
+			grid-area: right;
+		}
+		#grid-item-5{
+			grid-area: footer;
+		}
+
+
+	</style>
+</head>
+<body>
+		<div class="sf">
+			<div class="grid-items" id="grid-item-1">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlCeVhPcF0B061dWx6Y2p6ZshztnAoVQI59g&s" width="100">
+			</div>
+			<div class="grid-items" id="grid-item-2">2</div>
+			<div class="grid-items" id="grid-item-3">
+				Name: <input type="text" name="">
+				password: <input type="password" name="">
+			</div>
+			<div class="grid-items" id="grid-item-4">4</div>
+			<div class="grid-items" id="grid-item-5">5</div>
+			
+			<div class="grid-items" id="grid-item-5">5</div>
+		</div>
+</body>
+</html>

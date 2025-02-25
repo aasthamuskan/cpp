@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		body{
+			background-color: tomato;
+		}
+		form{
+			background-color: dodgerblue;
+			padding: 10px;
+			margin: 10px;
+		}
+		fieldset{
+			background: url(https://cdn.vectorstock.com/i/1000v/70/05/love-background-vector-3767005.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+			background-color: antiquewhite;
+			font-size: 25px;
+		}
+		fieldset input{
+			font-size: 30px;
+			border: 2px dashed black;
+		}
+		fieldset input:hover{
+			background-color: yellow;
+		}
+		.nav{
+			font-size: 30px;
+			border: 5px solid black;
+			border-radius: 10px;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		.nav-logo{
+			background-color: hotpink;
+			padding: 10px;
+		}
+		.nav-items li{
+			padding: 5px;
+			display: inline;
+		}
+		#exam{
+			font-size: 60px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<div class="nav" id="home">
+			<div class="nav-logo">
+				<i class="fa-solid fa-envelope"></i>
+			</div>
+			<div class="nav-items">
+				<ul>
+					<li>
+						<a href="#home">Home</a>
+					</li>
+					<li>about us</li>
+					<li>contact us</li>
+				</ul>
+			</div>
+
+		</div>
+
+
+		<!-- Form here-->
+	<div class="form">
+		<h1 align="center">Application Form</h1>
+		<form align="center"> 
+		<fieldset>
+			<legend>Application fORM</legend>
+			1. Name: <input type="text" name=""><br><br>
+			2. E-mail: <input type="email" name=""><br><br>
+			3. Password: <input type="password" name=""><br><br>
+			4. Phone number: <input type="number" name=""><br><br>
+			5. Date: <input type="date" name=""><br><br>
+			6. D.o.b : <input type="datetime-local" name=""><br><br>
+			7. Gender: <br>
+			Male <input type="radio" name="qa">
+			FeMale <input type="radio" name="qa">
+			Other <input type="radio" name="qa"><br><br>
+			8.Hobbies: <br>
+			1. Cricket : <input type="checkbox" name=""><br>
+			2. Vollyball : <input type="checkbox" name=""><br>
+			3. Swimming : <input type="checkbox" name=""><br>
+			4. singing : <input type="checkbox" name=""><br>
+			9. Country: 
+			<select>
+				<option>india</option>
+				<option>USA</option>
+				<option>China</option>
+				<option>Japan</option>
+				<option>Russia</option>
+			</select><br><br>
+			10. Volume: <input type="range" name="">
+			<input type="reset" name="">
+			<input type="submit" name="">
+		</fieldset>
+		</form>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<a href="#home" id="exam">Home</a>
+	</p>
+	</div>	
+	</div>
+</body>
+</html>

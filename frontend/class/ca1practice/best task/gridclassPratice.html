@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>grid</title>
+	<style>
+		body{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+		}
+		.contanier{
+			width: 60%;
+			display: grid;
+			height: 100vh;
+			grid-template-areas: 
+			'a a a'
+			'b c c'
+			'b c c'
+			'd c c'
+			'd e e'
+			'f f g'
+			'h h h'
+
+
+		}
+		.grid-item{
+			margin: 5px;
+			border: 1px solid black;
+		}
+		#grid-item-1{
+			grid-area: a;
+			background-color: blue;
+		}
+		#grid-item-2{
+			grid-area: b;
+			background-color: lightpink;
+		}
+		#grid-item-3{
+			grid-area: c;
+			background-color: yellow;
+		}
+		#grid-item-4{
+			grid-area: d;
+			background-color: green;
+
+		}
+		#grid-item-5{
+			grid-area: e;
+			background-color: gray;
+		}
+		#grid-item-6{
+			grid-area: f;
+			background-color: darkblue;
+		}
+		#grid-item-7{
+			grid-area: g;
+			background-color: pink;
+		}
+		#grid-item-8{
+			grid-area: h;
+			background-color: darkorange;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<div class="contanier">
+		<div class="grid-item" id="grid-item-1">1</div>
+		<div class="grid-item" id="grid-item-2">2</div>
+		<div class="grid-item" id="grid-item-3">3</div>
+		<div class="grid-item" id="grid-item-4">4</div>
+		<div class="grid-item" id="grid-item-5">5</div>
+		<div class="grid-item" id="grid-item-6">6</div>
+		<div class="grid-item" id="grid-item-7">7</div>
+		<div class="grid-item" id="grid-item-8">8</div>
+
+	</div>
+
+</body>
+</html>
